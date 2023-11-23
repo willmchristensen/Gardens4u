@@ -1,0 +1,15 @@
+.garden-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.garden-row{
+    display: flex;
+    height: 100px;
+    width: 300px;
+    border: 1px solid black;
+}
+.garden-column{
+    width: 20%;
+    border: 1px solid red;
+}
