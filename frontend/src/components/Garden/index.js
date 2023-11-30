@@ -9,8 +9,8 @@ function Garden({vegs, row}){
 
     return (
         <>
-            <h1>GARDEN</h1>
             <div className="garden-wrapper">
+            <h1>GARDEN</h1>
                 <div className="garden-container">
                     {
                         vegs.map((row,index) =>   <Row row={row} key={index}/>)

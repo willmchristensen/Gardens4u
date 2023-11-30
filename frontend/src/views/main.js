@@ -1,6 +1,7 @@
 import Garden from "../components/Garden";
 import Vegetables from "../components/Vegetables";
 import {useEffect, useState} from 'react';
+import './main.css';
 
 function Main(){
 
@@ -39,8 +40,10 @@ function Main(){
     
     return(
         <>
+        <div className="garden-vegetables">
             <Garden vegs={vegs} row={row}/>
             <Vegetables handleClick={handleClick}/>
+        </div>
         </>
     )
 
