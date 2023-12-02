@@ -1,0 +1,12 @@
+.nav-item{
+    list-style: none;
+}
+.nav-list{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list-container{
+    display: flex;
+    justify-content: center;
+}

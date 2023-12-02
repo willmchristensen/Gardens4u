@@ -1,5 +1,6 @@
 import Garden from "../components/Garden";
 import Vegetables from "../components/Vegetables";
+import NavBar from "../components/NavBar";
 import {useEffect, useState} from 'react';
 import './main.css';
 
@@ -40,6 +41,7 @@ function Main(){
     
     return(
         <>
+        <NavBar></NavBar>
         <div className="garden-vegetables">
             <Garden vegs={vegs} row={row}/>
             <Vegetables handleClick={handleClick}/>
