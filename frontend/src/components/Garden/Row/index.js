@@ -1,10 +1,10 @@
 import Plant from "./Plant";
-function Row({row}){
+function Row({edit,row}){
 
     return (
-        <div className="garden-row">
+        <div className='garden-row'>
             {
-                row.map(plant => <Plant plant={plant} />)
+                row.map(plant => <Plant edit={edit} plant={plant} />)
             }
         </div>
     )
