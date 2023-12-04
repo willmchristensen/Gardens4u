@@ -1,5 +1,6 @@
 import Veg from "./Veg";
 import './Vegetables.css';
+import OpenModalButton from "../OpenModalButton";
 
 let veggies = [
     {   title:'Tomato',
@@ -41,6 +42,7 @@ function Vegetables({handleClick}){
                     })
                 }
             </div>
+            <h1>modals</h1>
         </div>
     )
 
